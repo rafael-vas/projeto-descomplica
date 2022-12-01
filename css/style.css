@@ -37,8 +37,13 @@ header nav div a span:hover {
 }
 
 header nav div ul {
-    margin-left: 35px;
+    margin-left: 30px;
     gap: 15px;
+}
+
+header nav .search-field {
+    width: 300px;
+    margin-right: 15px;
 }
 
 header nav .search-field input {
@@ -46,7 +51,7 @@ header nav .search-field input {
     border-radius: 25px;
     padding-left: 40px;
     padding-right: 20px;
-    min-height: 38px;
+    width: 100%;
     font-size: .9em;
     background-color: rgb(255, 255, 255, .85);
     transition: all .4s;
@@ -62,7 +67,7 @@ header nav .search-field img {
     position: absolute;
     left: 1;
     margin-left: 12px;
-    width: 20px;
+    width: 18px;
     opacity: .7;
 }
 
@@ -75,8 +80,9 @@ header .user-field-img {
     display: flex;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 30px;
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
+    padding: 18px;
     align-items: center;
     justify-content: center;
 }
@@ -96,7 +102,7 @@ header .user-field:hover {
 
 header .user-field img {
     height: 25px;
-    width: 26px;
+    width: 25px;
 }
 
 header .user-text-field span {
@@ -106,7 +112,7 @@ header .user-text-field span {
     display: block;
 }
 
-header .user-text-field a   .usual-text:hover {
+header .user-text-field a .usual-text:hover {
     text-decoration: none;
 }
 
